@@ -1,0 +1,7 @@
+# Default ignored files
+.idea
+__pycache__
+.ipynb_checkpoints
+/.scannerwork/
+data/
+storage/
