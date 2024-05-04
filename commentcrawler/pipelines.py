@@ -45,5 +45,6 @@ class DataPipeline(object):
 
         # 保存文件
         df = pd.DataFrame(data=self.data)
-        print(df)
-        # df.to_excel(f"{data_dir}{self.platform}-{self.work_name}-{self.item_type}.xlsx", index=False)
+        # print(df)
+        # print(self.item_type)
+        df.to_excel(f"{data_dir}{self.platform}-{self.work_name}-{self.item_type}.xlsx", index=False)
